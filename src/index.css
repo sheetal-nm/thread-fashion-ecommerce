@@ -1,2 +1,5 @@
 @import "tailwindcss";
 :root{font-family:Inter,Arial,sans-serif;background:#F8F6F2;color:#1A1A1A}h1,h2,h3,.serif{font-family:"Cormorant Garamond",Georgia,serif}button{cursor:pointer}button:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid #5C4A3D;outline-offset:3px}.btn{background:#1A1A1A;color:white;padding:12px 20px;font-size:13px}.btn:hover{background:#5C4A3D}.product-picture{aspect-ratio:3/4;object-fit:cover;width:100%} .overlay{position:fixed;inset:0;z-index:50;overflow-y:auto;background:#F8F6F2}
+.thread-logo{display:block;width:160px;max-width:34vw;height:auto;object-fit:contain}
+@media(min-width:768px){.thread-logo{width:195px;max-width:none}}
+header{background:#F8F6F2}button{transition:background-color .18s ease,color .18s ease,opacity .18s ease}button:hover{opacity:.88}
